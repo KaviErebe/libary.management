@@ -5,7 +5,7 @@ import tkinter.messagebox as mb
 import tkinter.simpledialog as sd
 
 # Connecting to Database
-con = msql.connect(host='localhost',user="root",password="Erebus@55")
+con = msql.connect(host='localhost',user="root",password="root")
 cur = con.cursor()
 cur.execute("show databases")
 a=cur.fetchall()
